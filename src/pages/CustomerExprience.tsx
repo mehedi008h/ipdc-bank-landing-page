@@ -1,5 +1,5 @@
 import React from "react";
-import ExprienceCard from "../components/ExprienceCard";
+import { ExprienceCard } from "../components";
 import { data } from "../constants/date";
 
 const CustomerExprience = () => {

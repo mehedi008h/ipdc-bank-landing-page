@@ -1,4 +1,16 @@
-import { item1, item2, item3, item4, item5, item6, item7 } from "./images";
+import {
+    image1,
+    image2,
+    image3,
+    image4,
+    item1,
+    item2,
+    item3,
+    item4,
+    item5,
+    item6,
+    item7,
+} from "./images";
 
 export const data = [
     {
@@ -46,5 +58,30 @@ export const data = [
         title: "Digital",
         description:
             "Setting the standard for the best Corporate Citizenship in the communities we work",
+    },
+];
+
+// service
+
+export const services = [
+    {
+        logo: image1,
+        title: "IPDC SAVING ",
+        type: "SCHEMES",
+    },
+    {
+        logo: image2,
+        title: "IPDC Personal",
+        type: "loan",
+    },
+    {
+        logo: image3,
+        title: "IPDC Deposit",
+        type: "SCHEMES",
+    },
+    {
+        logo: image4,
+        title: "IPDC auto",
+        type: "loan",
     },
 ];
