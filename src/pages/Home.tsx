@@ -1,10 +1,13 @@
 import React from "react";
-import { Banner, Navbar } from "../components";
+import Banner from "./Banner";
+
+import CustomerExprience from "./CustomerExprience";
 
 const Home = () => {
     return (
         <div>
             <Banner />
+            <CustomerExprience />
         </div>
     );
 };

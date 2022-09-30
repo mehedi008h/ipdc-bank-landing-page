@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";
 import { banner_img } from "../constants/images";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 
 const Banner = () => {
     return (
