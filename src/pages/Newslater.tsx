@@ -17,6 +17,7 @@ const Newslater = () => {
                     <input
                         className="px-4 py-3.5 w-1/4 outline-none bg-white"
                         type="email"
+                        placeholder="Your email ..."
                     />
                     <button className="px-5 py-3 bg-pink-600 text-white uppercase">
                         Subscribe

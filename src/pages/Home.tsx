@@ -1,4 +1,5 @@
 import React from "react";
+import { Footer } from "../components";
 import About from "./About";
 import Banner from "./Banner";
 
@@ -16,6 +17,7 @@ const Home = () => {
             <Service />
             <Result />
             <Newslater />
+            <Footer />
         </div>
     );
 };
