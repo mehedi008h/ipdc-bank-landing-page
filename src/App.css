@@ -7,3 +7,17 @@
 .banner {
     min-height: calc(100vh - 192px);
 }
+
+.read_more_btn {
+    animation: topBounce 3s ease-in-out infinite;
+}
+
+@keyframes topBounce {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+}
