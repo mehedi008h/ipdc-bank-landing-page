@@ -85,3 +85,39 @@ export const services = [
         type: "loan",
     },
 ];
+
+// result
+export const results = [
+    {
+        amount: "I57.6 bn ",
+        content: "LOAN PORTFOLIO",
+    },
+    {
+        amount: "0.95%",
+        content: "CLASSIFIED LOAN PORTFOLIO",
+    },
+    {
+        amount: "388.5%",
+        content: "CLASSIFIED LOAN Coverage",
+    },
+    {
+        amount: "50.4 bn",
+        content: "Deposit",
+    },
+    {
+        amount: "6.1 bn",
+        content: "Shareholders equity",
+    },
+    {
+        amount: "18.51%",
+        content: "Capital Adequacy Ratio",
+    },
+    {
+        amount: "8.5 bn",
+        content: "Market Capitalization",
+    },
+    {
+        amount: "AAA",
+        content: "Credit Rating",
+    },
+];
