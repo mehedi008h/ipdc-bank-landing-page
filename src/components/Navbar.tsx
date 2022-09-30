@@ -20,7 +20,7 @@ const Navbar = () => {
                 </div>
 
                 <div>
-                    <button className="px-4 py-2 bg-pink-600 text-white rounded-md font-roboto font-semibold tracking-wider">
+                    <button className="px-4 py-2 bg-pink-600 text-white rounded-md font-roboto font-semibold tracking-widest hover:bg-pink-500 transition-all delay-100">
                         iSERVICE
                     </button>
                 </div>

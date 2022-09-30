@@ -1,0 +1,9 @@
+.banner_container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #fff 50%, #ffeaf5 50%);
+}
+
+.banner {
+    min-height: calc(100vh - 192px);
+}
