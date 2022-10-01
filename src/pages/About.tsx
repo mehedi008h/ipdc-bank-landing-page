@@ -6,14 +6,14 @@ const About = () => {
     return (
         <div className="flex">
             <div className="grid grid-cols-12 gap-4">
-                <div className="col-span-5">
+                <div className="xl:col-span-5 lg:col-span-5 md:col-span-5 col-span-12">
                     <img src={about_img} alt="About" />
                 </div>
-                <div className="col-span-7 p-12">
-                    <h1 className="uppercase text-4xl font-bold font-poppins">
+                <div className="xl:col-span-7 lg:col-span-7 md:col-span-7 col-span-12 xl:p-12 lg:p-12 md:p-12 p-4">
+                    <h1 className="uppercase xl:text-4xl lg:text-4xl md:text-4xl text-3xl font-bold font-poppins">
                         IPDC AT A GLANCE
                     </h1>
-                    <p className="mt-8 text-gray-600 font-poppins text-base w-2/3 tracking-widest">
+                    <p className="mt-8 text-gray-600 font-poppins text-base xl:w-2/3 lg:w-2/3 md:w-2/3 w-full tracking-widest">
                         IPDC Finance Limited (previously known as "Industrial
                         Promotion and Development Company of Bangladesh
                         Limited") is the first private sector financial

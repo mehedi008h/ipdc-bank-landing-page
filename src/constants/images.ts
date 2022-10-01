@@ -14,6 +14,19 @@ import image2 from "../assets/Image (1).png";
 import image3 from "../assets/Image (2).png";
 import image4 from "../assets/Image (3).png";
 
+// business partners
+
+import partner1 from "../assets/adidas.png";
+import partner2 from "../assets/amazon.png";
+import partner3 from "../assets/asus.png";
+import partner4 from "../assets/logo-coca-cola.png";
+import partner5 from "../assets/logo-godrej.png";
+import partner6 from "../assets/logo-oppo.png";
+import partner7 from "../assets/logo-paypal.png";
+import partner8 from "../assets/logo-philips.png";
+import partner9 from "../assets/spotify.png";
+import partner10 from "../assets/skype.png";
+
 export {
     logo,
     banner_img,
@@ -29,4 +42,14 @@ export {
     image2,
     image3,
     image4,
+    partner1,
+    partner2,
+    partner3,
+    partner4,
+    partner5,
+    partner6,
+    partner7,
+    partner8,
+    partner9,
+    partner10,
 };

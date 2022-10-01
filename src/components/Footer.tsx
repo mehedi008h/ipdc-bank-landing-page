@@ -12,11 +12,11 @@ const Footer = () => {
         <div className="flex">
             <div className="w-4/5 mx-auto my-12">
                 <div className="grid grid-cols-12 gap-6 font-poppins">
-                    <div className="col-span-3">
+                    <div className="xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-12">
                         <h3 className="text-2xl font-medium">
                             About the company
                         </h3>
-                        <p className="mt-6 text-gray-500 w-3/4">
+                        <p className="mt-6 text-gray-500 xl:w-3/4 lg:w-3/4 md:w-3/4 w-full">
                             Learn To Love Growth And Change And You Will Be A
                             Success. Microsoft Patch{" "}
                         </p>
@@ -43,7 +43,7 @@ const Footer = () => {
                             />
                         </div>
                     </div>
-                    <div className="col-span-2">
+                    <div className="xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-6">
                         <h3 className="text-2xl font-medium">Products</h3>
                         <div className="flex flex-col gap-2 mt-6 text-gray-500">
                             <a href="#">CSR Activities</a>
@@ -53,7 +53,7 @@ const Footer = () => {
                             <a href="#">Updates</a>
                         </div>
                     </div>
-                    <div className="col-span-2">
+                    <div className="xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-6">
                         <h3 className="text-2xl font-medium">Get Started</h3>
                         <div className="flex flex-col gap-2 mt-6 text-gray-500">
                             <a href="#">Career</a>
@@ -63,7 +63,7 @@ const Footer = () => {
                             <a href="#">NIS</a>
                         </div>
                     </div>
-                    <div className="col-span-3">
+                    <div className="xl:col-span-3 lg:col-span-3 md:col-span-3 col-span-6">
                         <h3 className="text-2xl font-medium">About</h3>
                         <div className="flex flex-col gap-2 mt-6 text-gray-500">
                             <a href="#">IPDC at a Glance</a>
@@ -73,7 +73,7 @@ const Footer = () => {
                             <a href="#">Investor Relations</a>
                         </div>
                     </div>
-                    <div className="col-span-2">
+                    <div className="xl:col-span-2 lg:col-span-2 md:col-span-2 col-span-6">
                         <div className="flex gap-2">
                             <IoCallOutline size={30} color="#ED017F" />
                             <p className="text-2xl font-poppins font-medium">

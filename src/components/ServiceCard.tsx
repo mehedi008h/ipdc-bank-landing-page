@@ -13,7 +13,7 @@ const ServiceCard: FC<Props> = ({ logo, title, type }) => {
             <img src={logo} alt={title} />
             <div className="flex justify-between items-center mt-3">
                 <div>
-                    <h3 className="text-gray-600 font-semibold text-2xl uppercase font-poppins">
+                    <h3 className="text-gray-600 font-semibold xl:text-2xl lg:text-2xl md:text-2xl text-xl uppercase font-poppins">
                         {title}
                     </h3>
                     <h3 className="text-gray-500 font-semibold text-xl uppercase font-poppins">

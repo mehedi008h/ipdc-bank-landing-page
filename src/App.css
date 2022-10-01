@@ -21,3 +21,86 @@
         transform: translateX(20px);
     }
 }
+
+/* target the active bullet */
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: white;
+    width: 2rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    opacity: 1;
+}
+
+/* target all bullets */
+span.swiper-pagination-bullet {
+    background: white;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    opacity: 1;
+}
+.link {
+    transition: all 0.2s ease-in-out;
+}
+
+.link:hover {
+    color: #ed017f;
+}
+
+.app__navbar-menu {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mb_nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+
+    padding: 1rem;
+
+    width: 80%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: #ffeaf5;
+}
+.link_items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.link_item {
+    margin: 1rem;
+}
+.link_item a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 576px) {
+    .banner_container {
+        height: 100%;
+        width: 100%;
+        background: #ffeaf5;
+    }
+}

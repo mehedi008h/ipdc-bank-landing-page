@@ -10,6 +10,16 @@ import {
     item5,
     item6,
     item7,
+    partner1,
+    partner10,
+    partner2,
+    partner3,
+    partner4,
+    partner5,
+    partner6,
+    partner7,
+    partner8,
+    partner9,
 } from "./images";
 
 export const data = [
@@ -119,5 +129,40 @@ export const results = [
     {
         amount: "AAA",
         content: "Credit Rating",
+    },
+];
+
+// partners image
+
+export const partners = [
+    {
+        image: partner1,
+    },
+    {
+        image: partner2,
+    },
+    {
+        image: partner3,
+    },
+    {
+        image: partner4,
+    },
+    {
+        image: partner5,
+    },
+    {
+        image: partner6,
+    },
+    {
+        image: partner7,
+    },
+    {
+        image: partner8,
+    },
+    {
+        image: partner9,
+    },
+    {
+        image: partner10,
     },
 ];
